@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What is your food </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="grid.css">
+  </head>
+  <body>
+    <h1 id="link">
+      <a href="flexform.html"><button >Ooooh Click me for Flex</button></a>
+    </h1>
+    <form class="form" action="/">
+
+    <header id="title" >What is your food?</header>
+
+    <section class="seperator1"></section>
+
+    <section class="name">
+      <label class="label" for="fname">What is your name: </label>
+      <input ideatype="text" name="fname" required><br>
+    </section>
+
+    <section class="seperator2"></section>
+
+    <header id="grainHeader" class="label">Choose your Grain </header>
+    <section id="mac">
+      <input type="radio" name="grain" value="mac" required>
+      <label class="inputLabel" for="mac">Mac & Cheese</label>
+    </section>
+    <section id="riceBeans">
+        <input type="radio" name="grain" value="riceBeans" required>
+        <label class="inputLabel" for="riceBeans">Rice and Beans</label>
+    </section>
+
+    <section class="seperator3"></section>
+
+    <header id="veggieHeader" class="label">Choose your Veggie </header>
+    <section id="broc">
+      <input type="radio" name="veg" value="broc" required>
+      <label class="inputLabel" for="broc">Roasted Broccoli</label>
+    </section>
+    <section id="greenBeans">
+      <input type="radio" name="veg" value="greenBeans" required>
+      <label class="inputLabel" for="greenBeans">Roasted Green Beans</label>
+    </section>
+
+    <section class="seperator4"></section>
+
+    <header id="proteinHeader" class="label">Choose and Protein </header>
+    <section id="salmon">
+      <input type="radio" name="protein" value="sal" required>
+      <label class="inputLabel" for="salmon">Seared Salmon </label>
+    </section>
+    <section id="brisket">
+      <input type="radio" name="protein" value="brisk" required>
+      <label class="inputLabel" for="Brisket">Brisket</label>
+    </section>
+
+    <button type="submit" id="submit" name="button">
+      <span id="submitText">Submit</span>
+    </button>
+
+    </form>
+
+  </body>
+</html>

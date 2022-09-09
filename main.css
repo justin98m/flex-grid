@@ -1,0 +1,16 @@
+/*Css not specific to grid nor flex forms */
+#link{
+  text-align: center;
+}
+.label{
+  text-decoration: underline;
+  font-size: 30px;
+
+}
+.inputLabel{
+  font-size: 25px;
+}
+#title{
+  font-size: 40px;
+  text-align: center;
+}

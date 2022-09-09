@@ -1,0 +1,57 @@
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin-left: 15%;
+  border: solid red 10px;
+}
+#title{
+
+}
+.name{
+  border: solid red 3px;
+  text-align: center;
+
+}
+#grainHeader{
+  text-align: center;
+
+}
+#mac{
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+#riceBeans{
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+#veggieHeader{
+  text-align: center;
+}
+#broc{
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+}
+#greenBeans{
+  margin-left: 33%;
+  width: 40%;
+  text-align: center;
+}
+#salmon{
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+}
+#brisket{
+  margin-left: 25%;
+  width: 40%;
+  text-align: center;
+}
+#proteinHeader{
+  text-align: center;
+}
