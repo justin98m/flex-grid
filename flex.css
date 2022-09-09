@@ -1,57 +1,70 @@
+/*
+  -Flex box uses form as a container in a row format
+  each item other than answer choices takes the eintire row width
+  -the answer choices split the flex's row width
+  */
 form{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   width: 75%;
   margin-left: 15%;
   border: solid red 10px;
 }
 #title{
-
+  flex-basis: 100%;
+}
+.seperator1{
+  flex-basis: 100%;
+  border: solid green 5px;
 }
 .name{
-  border: solid red 3px;
+  flex-basis: 100%;
   text-align: center;
-
+}
+.seperator2{
+  flex-basis: 100%;
+  border: solid green 5px;
 }
 #grainHeader{
+  flex-basis: 100%;
   text-align: center;
-
 }
 #mac{
-  width: 40%;
-  text-align: center;
-  margin-left: 30%;
+  flex-basis: 25%;
 }
 #riceBeans{
-  width: 40%;
-  text-align: center;
-  margin-left: 30%;
+  flex-basis: 25%;
+}
+.seperator3{
+  flex-basis: 100%;
+  border: solid green 5px;
 }
 #veggieHeader{
+  flex-basis: 100%;
   text-align: center;
 }
 #broc{
-  margin-left: 30%;
-  width: 40%;
-  text-align: center;
+  flex-basis: 35%;
 }
 #greenBeans{
-  margin-left: 33%;
-  width: 40%;
+  flex-basis: 35%;
+}
+.seperator4{
+  flex-basis: 100%;
+  border: solid green 5px;
+}
+#proteinHeader{
+  flex-basis: 100%;
   text-align: center;
 }
 #salmon{
-  margin-left: 30%;
-  width: 40%;
-  text-align: center;
+  flex-basis: 25%;
 }
 #brisket{
-  margin-left: 25%;
-  width: 40%;
-  text-align: center;
+  flex-basis: 25%;
 }
-#proteinHeader{
-  text-align: center;
+#submit{
+  flex-basis: 100%;
 }

@@ -8,8 +8,6 @@
   -Last row is for sumbit
 */
 form{
-  border: solid blue 10px;
-  background-color: grey;
   display: grid;
   grid-template-rows: .5fr .25fr .5fr .25fr .5fr .5fr .25fr .5fr .5fr .25fr
   .5fr .5fr .25fr;
@@ -100,10 +98,4 @@ form{
 #submit{
   grid-row: 13 / span 1;
   grid-column: 1/3;
-  text-align: center;
-  background-color: green;
-}
-#submitText{
-  font-size: 20px;
-  color: white;
 }
